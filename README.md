@@ -1,4 +1,4 @@
-# LayoutSheet [ Formerly : TopSheet]
+# LayoutSheet
 Java Codes for LayoutSheet Extension for MIT App Inventor 2
 
 Key Highlights : Transparent Background , No fixed width/hight and accepts many components such as card view and arrangements
