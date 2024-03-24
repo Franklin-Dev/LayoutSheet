@@ -11,5 +11,5 @@ Changes in v3
 NOTE : Republishing this extension without giving link of the repo is prohibited 
 
 
-Docs : https://docs.xyberneo.com/topsheet-extension
+Docs : 
 Download Extension : https://www.mediafire.com/file/u3itmd1fcctuwrh/LayoutSheet_v3.aix/file
