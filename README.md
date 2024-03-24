@@ -1,13 +1,15 @@
 # LayoutSheet [ Formerly : TopSheet]
-Java Codes for TopSheet Extension for MIT App Inventor 2 Offsprings
+Java Codes for LayoutSheet Extension for MIT App Inventor 2
 
 Key Highlights : Transparent Background , No fixed width/hight and accepts many components such as card view and arrangements
 
-V3 Target : Adding show and hide animations
+Changes in v3
+-Cancel option has been fixed
+-Modified the height to allow to be read in percentages for responsive
+-Border radius added to dialog
 
 NOTE : Republishing this extension without giving link of the repo is prohibited 
 
 
 Docs : https://docs.xyberneo.com/topsheet-extension
-
-Download Extension : https://www.extensions.xyberneo.com
+Download Extension : https://www.mediafire.com/file/u3itmd1fcctuwrh/LayoutSheet_v3.aix/file
