@@ -4,9 +4,9 @@ Java Codes for LayoutSheet Extension for MIT App Inventor 2
 Key Highlights : Transparent Background , No fixed width/hight and accepts many components such as card view and arrangements
 
 Changes in v3
-\n Cancel option has been fixed
-:Modified the height to allow to be read in percentages for responsive
-:Border radius added to dialog
+Cancel option has been fixed
+Modified the height to allow to be read in percentages for responsive
+Border radius added to dialog
 
 NOTE : Republishing this extension without giving link of the repo is prohibited 
 
