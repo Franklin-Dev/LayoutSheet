@@ -128,7 +128,7 @@ public class LayoutSheet extends AndroidNonvisibleComponent implements DialogInt
         }
     }
 
-    @SimpleFunction(description = "Unregister the component as a dialo")
+    @SimpleFunction(description = "Unregister the component as a dialog")
     public void UnRegister() {
         if (dialog != null) {
             dialog.dismiss();
