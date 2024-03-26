@@ -4,8 +4,8 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.ShapeDrawable;
+import android.graphics.drawable.shapes.RoundRectShape;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -115,10 +115,9 @@ public class LayoutSheet extends AndroidNonvisibleComponent implements DialogInt
         dialog.getWindow().setDimAmount(dimAmount);
         dialog.getWindow().setAttributes(params);
 
-        GradientDrawable shape = new GradientDrawable();
-        shape.setCornerRadii(radii);
-        shape.setColor(tipColor);
-        component.getView().setBackgroundDrawable(shape);
+        ShapeDrawable shapeDrawable = new ShapeDrawable(new RoundRectShape(radii, null, null));
+        shapeDrawable.getPaint().setColor(tipColor);
+        component.getView().setBackgroundDrawable(shapeDrawable);
     }
 
     @SimpleFunction(description = "To hide the dialogue or disable")
